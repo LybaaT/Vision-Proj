@@ -11,6 +11,7 @@ body {
 }
 h2 {
     font-size: 40px;
+    font-family: "bold";
     margin: 0px;
     text-align: center;
     padding: 12px;
@@ -28,26 +29,21 @@ h2 {
 .container{
     height: 85vh;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(166, 255, 166);
 }
 #display{
     width: 100%;
-    font-size: 200px;
+    font-size: 20vw;
     letter-spacing: 10px;
     text-align: center;
     margin: 0px;
 }
-.buttons{
+.buttons {
     text-align: center;
 }
-.button2 {background-color: #008CBA;
-    border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-    } 
+button {
+    background-color:#0066ff;
+    padding: 25px;
+    cursor: pointer;
+
+}
