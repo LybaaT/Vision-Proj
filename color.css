@@ -12,6 +12,7 @@ body {
     margin: 0px;
     text-align: center;
     font-family: "bold";
+    overflow: hidden;
 }
 .bars {
     display: inline-block;
@@ -23,7 +24,7 @@ body {
 #color1, #color2, #color3, #color4, #color5 {
     float: left;
     width: 20vw;
-    height: 77vh;
+    height: 100vh;
 }
 h2 {
     font-size: 40px;
@@ -43,24 +44,21 @@ h2 {
 }
 .container {
     width: 100%;
-    height:50px;
-}
-.text {
-    width: 60%;
-    float: left;
-    height:70px;
+    height:80px;
 }
 #genNew {
     font-family: "bold";
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
     display: inline-block;
     width: 40%;
     height: 70px;
-    font-size: 25px;
     background-color: #0066ff;
     border: none;
     border-radius: 5px;
     color: white;
+    float: right;
+    margin: 10px;
 
     transition: 0.2s ease-in-out;
 }
@@ -70,6 +68,7 @@ h2 {
 p {
     font-size: 25px;
     text-align: left;
-    padding-left: 50px;
     font-family: "basic";
+    display: inline-block;
+    text-align: left;
 }
