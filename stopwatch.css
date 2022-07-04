@@ -29,7 +29,6 @@ h2 {
 .container{
     height: 85vh;
     width: 100%;
-    background-color: rgb(166, 255, 166);
 }
 #display{
     width: 100%;
@@ -40,10 +39,23 @@ h2 {
 }
 .buttons {
     text-align: center;
+    padding: 20px;
 }
 button {
-    background-color:#0066ff;
-    padding: 25px;
-    cursor: pointer;
-
+    font-family: "bold";
+    font-size: 15px;
+    display: inline-block;
+    width: 20%;
+    height: 70px;
+    font-size: 25px;
+    background-color: #0066ff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: 0.2s ease-in-out;
+    margin: 15px;
 }
+button:hover {
+    background-color: #0059df;
+}
+    
