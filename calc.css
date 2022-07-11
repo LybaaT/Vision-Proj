@@ -1,42 +1,71 @@
-* {
-    text-align: center
-}           
-body {
-    background:white;
+.container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: calc(70vh - 80px);
+}
+.row {
+    width: 100vw;
+    height: 20%;
+    margin: 0;
+}
+.col-md-6, .col-md-3 {
     padding: 0px;
-    text-align: center;
 }
-h1 {
-    font-family: "head";
-    font-size: 60px;
-}
-table.center {
-    margin-left: auto; 
-    margin-right: auto;
+.logo {
+    width: 20%;
+    margin: 0;
+    z-index: 1;
 }
 .button {
-    width: 65px;
-    height: 65px;
-    font-size: 35px;
-    cursor: pointer;
-    text-align: center;
-    font-family: "numbers";
-    background-color: rgba(49, 40, 40, 0.795);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
     border: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: "basic";
 }
 .button:hover {
-    background-color: rgb(134, 134, 134);
-    transition: ease-in 0.06s;
+    background-color: rgb(12, 12, 12) ;
 }
-.textview {
-    width: 269px;
-    height: 65px;
-    margin: 5px;
-    font-size: 35px;
-    padding: 5px;
-    font-family: "numbers";
-    color: rgb(0, 0, 0);
-    background-color: rgba(15, 15, 15, 0.808);
+form .textview {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: right;
+    font-size: 90px;
+    font-family: "bold";
+}
+@font-face {
+    font-family: "bold";
+    src: url(font/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "basic";
+    src: url(font/Inter-SemiBold.ttf);
+}
+h2 {
+    font-size: 40px;
+    font-family: "bold";
+    margin: 0px;
+    text-align: center;
+    padding: 12px;
+    width: 80%;
+    display: inline-block;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
     border: none;
-    pointer-events: none;
+    color: white;
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0);
 }
