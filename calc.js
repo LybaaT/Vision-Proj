@@ -1,4 +1,5 @@
 function keyPress(event) {
+    console.log();
     console.log(event);
     if (['1','2','3', '4', '5', '6', '7', '8', '9', '0', '.', '+', '-', '/', '*'].includes(event.key)) {
         insert(event.key);
