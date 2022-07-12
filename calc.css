@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "bold";
+    src: url(font/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "basic";
+    src: url(font/Inter-SemiBold.ttf);
+}
 .container {
     width: 100vw;
     margin: 0;
@@ -13,10 +21,11 @@
     padding: 0px;
 }
 .logo {
-    margin: 0;
+    margin: 4px;
     z-index: 1;
-    max-height: 60px;
+    max-height: 70px;
     display: inline-block;
+    cursor: pointer;
 }
 .button {
     width: 100%;
@@ -43,14 +52,6 @@ form .textview {
     font-size: 90px;
     font-family: "bold";
     pointer-events: none;
-}
-@font-face {
-    font-family: "bold";
-    src: url(font/Inter-Bold.ttf);
-}
-@font-face {
-    font-family: "basic";
-    src: url(font/Inter-SemiBold.ttf);
 }
 h2 {
     font-size: 40px;
