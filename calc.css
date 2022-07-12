@@ -42,6 +42,7 @@ form .textview {
     text-align: right;
     font-size: 90px;
     font-family: "bold";
+    pointer-events: none;
 }
 @font-face {
     font-family: "bold";
