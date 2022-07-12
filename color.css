@@ -32,8 +32,9 @@ h2 {
     margin: 0px;
     text-align: center;
     padding: 12px;
-    width: 90%;
+    width:  calc(100vw - 75px);
     display: inline-block;
+    vertical-align: top;
 }
 .nav {
     width: 100%;
