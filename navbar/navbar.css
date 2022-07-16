@@ -1,5 +1,4 @@
 .navmenu {
-    display: none;
     width: 300px;
     height: 100vh;
     position: fixed;
@@ -16,11 +15,8 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "basic";
-<<<<<<< Updated upstream
-=======
     margin-bottom: 35px;
 }
 .navmenu a:hover {
     background-color: black;
->>>>>>> Stashed changes
 }
