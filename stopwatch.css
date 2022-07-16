@@ -26,24 +26,44 @@ h2 {
     border-radius: 0px;
     background-color: rgb(0, 0, 0);
 }
+.logo {
+    margin: 4px;
+    z-index: 1;
+    max-height: 70px;
+    display: inline-block;
+    cursor: pointer;
+}
 .container{
     height: 85vh;
     width: 100%;
-    background-color: rgb(166, 255, 166);
 }
 #display{
     width: 100%;
-    font-size: 20vw;
+    font-size: 15vw;
     letter-spacing: 10px;
     text-align: center;
     margin: 0px;
+    font-family: "basic";
 }
 .buttons {
     text-align: center;
+    padding: 20px;
 }
 button {
-    background-color:#0066ff;
-    padding: 25px;
-    cursor: pointer;
-
+    font-family: "bold";
+    font-size: 15px;
+    display: inline-block;
+    width: 20%;
+    height: 70px;
+    font-size: 25px;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: 0.2s ease-in-out;
+    margin: 15px;
 }
+button:hover {
+    background-color: #0a0a0a;
+}
+    
