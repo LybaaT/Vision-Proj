@@ -58,14 +58,14 @@ h1 {
     letter-spacing: 1px;
     font-size: 20px;
     display: inline-block;
-    width: calc(40vw - 20px);
+    width: calc(40vw - 40px);
     height: 70px;
     background-color: #0066ff;
     border: none;
     border-radius: 5px;
     color: white;
     margin: 10px;
-    transition: 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 #genNew:hover {
     background-color: #0059df;
@@ -76,5 +76,6 @@ p {
     font-family: "basic";
     display: inline-block;
     text-align: left;
+    margin-left: 20px;
     width: calc(60vw - 10px);
 }
