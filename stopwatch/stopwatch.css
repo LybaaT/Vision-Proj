@@ -15,6 +15,9 @@ h2 {
     margin: 0px;
     text-align: center;
     padding: 12px;
+    width: calc(100vw - 110px);
+    display: inline-block;
+    vertical-align: top;
 }
 .nav {
     width: 100%;
