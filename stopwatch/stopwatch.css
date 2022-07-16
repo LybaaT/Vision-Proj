@@ -1,13 +1,14 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 @font-face {
     font-family: "bold";
-    src: url(font/Inter-Bold.ttf);
+    src: url(/font/Inter-Bold.ttf);
 }
 @font-face {
     font-family: "basic";
-    src: url(font/Inter-SemiBold.ttf);
+    src: url(/font/Inter-SemiBold.ttf);
 }
 h2 {
     font-size: 40px;
@@ -45,8 +46,8 @@ h2 {
     font-size: 15vw;
     letter-spacing: 10px;
     text-align: center;
-    margin: 0px;
-    font-family: "basic";
+    margin-top: 100px;
+    font-family: Consolas;
 }
 .buttons {
     text-align: center;

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "bold";
-    src: url(font/Inter-Bold.ttf);
+    src: url(/font/Inter-Bold.ttf);
 }
 @font-face {
     font-family: "basic";
-    src: url(font/Inter-SemiBold.ttf);
+    src: url(/font/Inter-SemiBold.ttf);
 }
 .container {
     width: 100vw;
@@ -59,6 +59,7 @@ h2 {
     margin: 0px;
     text-align: center;
     padding: 12px;
+    width: calc(100vw - 160px);
 }
 .nav {
     width: 100%;
