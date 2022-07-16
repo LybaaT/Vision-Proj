@@ -2,14 +2,6 @@ body {
     margin: 0;
     overflow: hidden;
 }
-@font-face {
-    font-family: "bold";
-    src: url(/font/Inter-Bold.ttf);
-}
-@font-face {
-    font-family: "basic";
-    src: url(/font/Inter-SemiBold.ttf);
-}
 h2 {
     font-size: 40px;
     font-family: "bold";

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "bold";
+    src: url(/font/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "basic";
+    src: url(/font/Inter-SemiBold.ttf);
+}
