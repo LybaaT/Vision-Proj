@@ -66,6 +66,7 @@ h1 {
     color: white;
     margin: 10px;
     transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
 }
 #genNew:hover {
     background-color: #0059df;

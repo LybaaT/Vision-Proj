@@ -11,11 +11,10 @@
     text-align: left;
     cursor: pointer;
     display: block;
-    margin: 10px;
+    margin: 30px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "basic";
-    margin-bottom: 35px;
 }
 .navmenu a:hover {
     background-color: black;
