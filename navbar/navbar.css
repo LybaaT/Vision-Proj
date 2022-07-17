@@ -23,8 +23,8 @@ body {
     font-size: 40px;
     font-family: "bold";
     margin: 0px;
+    margin-top: 15px;
     text-align: center;
-    padding: 12px;
     width: calc(100vw - 160px);
     display: inline-block;
     vertical-align: top;

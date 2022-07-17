@@ -2,8 +2,7 @@
 
 const navbar = `
 <div class="nav">
-    <img src="logo.png" class="logo" onclick="openNavBar()">
-    <h2 class="navtitle">${document.title}</h2>
+    <img src="logo.png" class="logo" onclick="openNavBar()"><h2 class="navtitle">${document.title}</h2>
 </div>
 <div class="navmenu" style="transform:translateX(-300px);transition:transform 0.2s ease-out;">
     <a href="calculator.html">Calculator</a>
