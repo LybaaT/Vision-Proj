@@ -14,6 +14,8 @@ document.querySelectorAll('a').forEach((link) => {
             iframe.style.pointerEvents = 'none';
         });
 
+        document.querySelector('.navtitle').innerText = this.innerText;
+
         const selected_iframe = document.getElementById(this.innerText);
         selected_iframe.style.opacity = 1;
         selected_iframe.style.pointerEvents = 'all';

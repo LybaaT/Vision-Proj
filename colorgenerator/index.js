@@ -7,5 +7,6 @@ function generateNewColors() {
     };
 };
 
+const genNew = document.getElementById('genNew');
 genNew.onclick = generateNewColors;
 generateNewColors();
