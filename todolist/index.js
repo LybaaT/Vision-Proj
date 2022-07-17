@@ -34,7 +34,7 @@ function send() {
 }
 
 // Check if enter was pressed to send the item that way
-function enter() {
+function enter(event) {
     if (event.key === 'Enter') {
         send();
     };
