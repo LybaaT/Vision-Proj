@@ -24,9 +24,10 @@ function openNavBar() {
     
     const transform = (navbarshown ? 'translateX(0px)' : 'translateX(-300px)');
     document.querySelector('.navmenu').style.transform = transform;
-    console.log(transform)
 };
 
 // Insert everything at the start of the body
 
-document.body.innerHTML = navbar + document.body.innerHTML;
+if (window.top === window) {
+    document.body.innerHTML = navbar + document.body.innerHTML;
+}
