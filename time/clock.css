@@ -6,7 +6,6 @@
     background: url(clock.png) no-repeat;
     background-size: 100%;
 }
-
 #hour, #minute, #second{
     position: absolute;
     background: black;
@@ -32,6 +31,5 @@
     height: 40%;
     top: 9%;
     left: 49.25%;
-    opacity: 0.8; 
-    
+    opacity: 0.8;    
 }
