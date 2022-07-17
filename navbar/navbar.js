@@ -9,6 +9,7 @@ const navbar = `
     <a href="colorgenerator.html">Color Generator</a>
     <a href="stopwatch.html">Stopwatch</a>
     <a href="timer.html">Clock</a>
+    <a href="todolist.html">To-do List</a>
 </div>
 `
 
