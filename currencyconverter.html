@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=888">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="currency/styles.css">
+    <link rel="stylesheet" href="navbar/navbar.css">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="input" placeholder="Enter amount">
+        <select id="cur1"></select>
+        
+        <svg id="arrow" width="80" height="64">
+            <path d="M16,0 48,0 48,32 64,32 32,64 0,32 16,32" fill="#AAA"></path>
+            <path d="M48,0 64,0 64,32 48,32" fill="#888"></path>
+            <path d="M64,32 80,32 48,64 32,64" fill="#888"></path>
+        </svg>
+        
+        <input type="text" id="output">
+        <select id="cur2"></select>
+    </div>
+
+    <script src="currency/index.js"></script>
+    <script src="navbar/navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    min-width: 500px;
+}
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+input, select, option {
+    font-size: 30px;
+    font-family: "basic";
+    border-radius: 1px;
+    border: 1px solid black;
+}
+select {
+    cursor: pointer;
+}
+#arrow {
+    display: block;
+    margin: auto;
+}
+.container {
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #DDD;
+    border-radius: 20px;
+    box-shadow: 16px 0px 0px #CCC;
+}
