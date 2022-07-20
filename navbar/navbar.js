@@ -10,6 +10,7 @@ const navbar = `
     <a href="stopwatch.html">Stopwatch</a>
     <a href="timer.html">Clock</a>
     <a href="todolist.html">To-do List</a>
+    <a href="aboutus.html">About us</a>
 </div>
 `
 
