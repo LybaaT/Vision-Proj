@@ -51,3 +51,13 @@ body {
 .navmenu a:hover {
     background-color: black;
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: "basic";
+    border-top-left-radius: 20px;
+}

@@ -1,3 +1,4 @@
+project_name = 'Vision';
 document.querySelectorAll('a').forEach((link) => {
     link.href = 'javascript:void(0);';
     link.onclick = function() {
@@ -15,6 +16,7 @@ document.querySelectorAll('a').forEach((link) => {
         });
 
         document.querySelector('.navtitle').innerText = this.innerText;
+        document.title = project_name + ' - ' + this.innerText;
 
         const selected_iframe = document.getElementById(this.innerText);
         selected_iframe.style.opacity = 1;
