@@ -23,3 +23,10 @@
 #submitbutton:hover {
     background-color: #CCC;
 }
+.timestamp {
+    font-size: 15px;
+    color: gray;
+}
+#container .item:hover .timestamp {
+    color: #BBB;
+}

@@ -15,7 +15,12 @@ if ([null,''].includes(save)) {
 
 // Add an item
 function add(item) {
-    document.getElementById('container').innerHTML += `<li class="item" onclick="remove(this);">${item}</li>`
+    const date = new Date();
+    document.getElementById('container').innerHTML += `<li class="item" onclick="remove(this);">
+    ${item}
+    <span class="timestamp">
+    ${date.getDate()}.${date.getMonth()+1}.${date.getFullYear()} - ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}</span>
+    </li>`;
     update();
 }
 
