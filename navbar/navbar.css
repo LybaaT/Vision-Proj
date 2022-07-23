@@ -16,7 +16,9 @@ body {
     margin: 4px;
     z-index: 1;
     max-height: 70px;
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
     cursor: pointer;
 }
 .navtitle {
@@ -25,7 +27,7 @@ body {
     margin: 0px;
     margin-top: 15px;
     text-align: center;
-    width: calc(100vw - 160px);
+    width: 100%;
     display: inline-block;
     vertical-align: top;
 }
@@ -60,4 +62,5 @@ footer {
     color: white;
     font-family: "basic";
     border-top-left-radius: 20px;
+    pointer-events: none;
 }

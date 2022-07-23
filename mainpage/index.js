@@ -18,9 +18,11 @@ document.querySelectorAll('a').forEach((link) => {
         document.querySelector('.navtitle').innerText = this.innerText;
         document.title = project_name + ' - ' + this.innerText;
 
+        location.hash = this.innerText;
+
         const selected_iframe = document.getElementById(this.innerText);
         selected_iframe.style.opacity = 1;
         selected_iframe.style.pointerEvents = 'all';
         openNavBar();
     };
-})
+});
