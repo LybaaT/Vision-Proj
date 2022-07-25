@@ -3,16 +3,21 @@ img {
     margin: auto;
     width: 200px;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
 }
 .grid-container {
     display: grid;
     margin-top: 50px;
     grid-template-columns: auto auto auto;
     padding: 10px;
-  }
+}
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
-  }
+}
+img:hover {
+    opacity: 0.8;
+    transform: scale(1.08);
+}
