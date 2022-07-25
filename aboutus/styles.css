@@ -1,5 +1,8 @@
+* {
+    color: white;
+}
 .container {
-    background-color: black;
+    background: linear-gradient(60deg, #37B5FE, #7bcfff);
     width: clamp(400px, 90vw, 1200px);
     margin: 50px auto;
     border-radius: 60px;
@@ -8,7 +11,7 @@
 .subcontainer {
     height: 100%;
     border-radius: 30px;
-    background-color: white;
+    background-color: black;
     text-align: center;
 }
 .halfsection {
@@ -25,7 +28,7 @@
     margin: 50px;
 }
 #divider {
-    background-color: #000000;
+    background-color: #66c7ff;
     height: 570px;
     margin-top: 60px;
     width: 4px;
@@ -50,7 +53,7 @@ p {
     font-family: "basic";
     font-size: 20px;
 }
-#logoinvert {
+#logo {
     width: 250px;
     margin: auto;
     display: block;
@@ -59,11 +62,20 @@ p {
     border-radius: 50%;
     width: 64px;
     height: 64px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.contributor:hover {
+    transform: scale(2);
 }
 span {
     vertical-align: top;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
     font-size: 30px;
     font-family: "basic";
     display: inline-block;
+}
+#github {
+    border-radius: 5px;
 }

@@ -6,7 +6,7 @@ if (window.top === window) {
         <img src="logo.png" class="logo" onclick="openNavBar()"><h2 class="navtitle">${document.title}</h2>
     </div>
     <div class="navmenu" style="transform:translateX(-350px);transition:transform 0.2s ease-out;">
-        <a href="welcome.html">Welcome</a>
+        <a href="index.html">Gizmo Tools For You</a>
         <a href="calculator.html">Calculator</a>
         <a href="colorgenerator.html">Color Generator</a>
         <a href="stopwatch.html">Stopwatch</a>

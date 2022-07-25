@@ -3,16 +3,74 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Vision</title>
+    <title>Gizmo Tools For You</title>
     <meta name='viewport' content='width=888'>
     <link rel="stylesheet" href="mainpage/styles.css">
     <link rel="stylesheet" href="navbar/navbar.css">
     <link rel="stylesheet" href="font/fonts.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="welcome/styles.css">
 </head>
 <body>
     <div id="iframes">
-        <iframe src="welcome.html" id="Welcome"></iframe>
+        <div id="Gizmo Tools For You">
+            <div class="grid-container">
+                <div class="grid-item">  
+                    <a href="aboutus.html">
+                        <img src="icons/abtus.png">
+                        <p>About us</p>
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="calculator.html">   
+                        <img src="icons/calculator.png">
+                        <p>Calculator</p>
+                    </a>
+                </div>
+                <div class="grid-item">      
+                    <a href="calender.html">  
+                        <img src="icons/calendar.png">
+                        <p>Calendar</p>
+                    </a>
+                </div>
+                <div class="grid-item">  
+                    <a href="colorgenerator.html">      
+                        <img src="icons/color.png">
+                        <p>Color Generator</p>
+                    </a>
+                </div>
+                <div class="grid-item">     
+                    <a href="currencyconverter.html">  
+                        <img src="icons/currency.png">
+                        <p>Currency Converter</p>
+                    </a>
+                </div>
+                <div class="grid-item"> 
+                    <a href="timer.html">      
+                        <img src="icons/timer.png">
+                        <p>Clock</p>
+                    </a>
+                </div>
+                <div class="grid-item">  
+                    <a href="todolist.html">      
+                        <img src="icons/to-do-list.png">
+                        <p>To-do List</p>
+                    </a>
+                </div>
+                <div class="grid-item">    
+                    <a href="#">    
+                        <img src="icons/weather.png">
+                        <p>Weather</p>
+                    </a>
+                </div>
+                <div class="grid-item">   
+                    <a href="#">     
+                        <img src="icons/notes.png">
+                        <p>Notes</p>
+                    </a>
+                </div>
+            </div>
+        </div>
         <iframe src="calculator.html" id="Calculator"></iframe>
         <iframe src="stopwatch.html" id="Stopwatch"></iframe>
         <iframe src="timer.html" id="Clock"></iframe>
@@ -23,19 +81,5 @@
     </div>
     <script src="navbar/navbar.js"></script>
     <script src="mainpage/index.js"></script>
-    <script>
-        let hash = decodeURI(location.hash.substr(1));
-        if (hash === '') {
-            hash = 'Welcome';
-        };
-
-        let page = ['Welcome','Calculator','Color Generator', 'Stopwatch', 'Clock', 'To-do List', 'Currency Converter', 'About us'].indexOf(hash); 
-        
-        document.querySelectorAll('a')[page].click();
-
-        if (page !== 0) {
-            openNavBar();
-        }
-    </script>
 </body>
 </html>
