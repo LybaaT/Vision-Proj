@@ -1,6 +1,7 @@
 img {
-    display: block;
+    display: inline-block;
     margin: auto;
+    cursor: pointer;
 }
 h2 {
     color: black;
